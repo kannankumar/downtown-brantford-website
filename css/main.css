@@ -276,6 +276,14 @@ hr {
 .home-section{
     margin:0;
 }
+
+.home-section-header{
+    display: inline-block;
+    font-size:3.75rem;
+    color:white;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
 .home-read-more {
     display: inline-block;
     padding: 3px 3px;
@@ -291,13 +299,7 @@ hr {
     font-size: 1.35rem;
 }
 
-.home-section-header{
-    display: inline-block;
-    font-size:3.75rem;
-    color:white;
-    letter-spacing:1px;
-    text-transform: uppercase;
-}
+/* Event section on Homepage */
 .home-event-section.spring{
     background: #75af42;
     padding:0;
@@ -317,7 +319,7 @@ hr {
     margin:10px 0 5px 0;
     text-transform: uppercase;
     line-height: 120%
-    
+
 }
 .home-event-date, .home-event-time{
     margin: 10px 0;
@@ -348,21 +350,21 @@ hr {
 
 .home-event-arrow-down{
     margin:auto;
-    width: 0; 
-  height: 0; 
+    width: 0;
+  height: 0;
   border-left: 4rem solid transparent;
   border-right: 4rem solid transparent;
 }
 .home-event-arrow-down.spring{
     border-top: 4rem solid #75af42;
 }
-.home-event-calendar{       
+.home-event-calendar{
     height:480px;
     display: flex;
 }
 .home-event-calendar img{       width:65%;
     margin:auto;
-} 
+}
 
 .home-event-calendar.spring{
     background:#ffffff url('../img/Home/spring.jpg') no-repeat left top;
@@ -374,7 +376,7 @@ hr {
 @media only screen and (max-width: 768px) {
     .home-event{
         padding: 0;
-    }    
+    }
 }
 
 
@@ -391,15 +393,15 @@ hr {
 }
 .home-downtown-section .home-img-card{
     height: 250px;
-    padding:10px;    
+    padding:10px;
     margin-bottom:20px;
-    
+
 }
 .home-info-section .home-img-card{
     height: 320px;
-    padding:10px;    
+    padding:10px;
     margin-bottom:20px;
-    
+
 }
 
 .home-img-card-bg{
@@ -415,7 +417,7 @@ hr {
     margin:10px 0 5px 0;
     text-transform: uppercase;
     line-height: 120%
-    
+
 }
 .home-img-card .home-read-more{
     margin:20px 0;
@@ -424,7 +426,7 @@ hr {
 @media only screen and (max-width: 768px) {
     .home-img-card{
     height: 200px;
-    }    
+    }
 }
 /* MAIN CONTENT SECTION
 -------------------------------------------------- */
@@ -597,7 +599,7 @@ hr {
 
 /* Dining cards */
 .dining-card-wrapper{
-   margin-top:50px; 
+   margin-top:50px;
 }
 /* Odd cards have margin-right */
 
@@ -726,7 +728,7 @@ hr {
 }
 
 .google-maps.indv-dining-map {
-    padding-bottom: 53%;    
+    padding-bottom: 53%;
 }
 
 /* SIDEBAR SECTION
@@ -899,11 +901,11 @@ hr {
     .sidebar-img-box ul .event-title {
         margin-top: 5px;
     }
-    
+
     .sidebar-color-box
     {
         border:transparent;
-    }    
+    }
 }
 
 
