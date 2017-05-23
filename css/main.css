@@ -275,6 +275,7 @@ hr {
 ----------------------------------------------- */
 .home-section{
     margin:0;
+    /*border:1px solid gray;*/
 }
 
 .home-section-header{
@@ -292,7 +293,7 @@ hr {
     font-size: 1.5rem;
     font-weight: 700;
     background: red;
-    color:white;    
+    color:white;
 }
 
 .home-read-more .glyphicon {
@@ -303,13 +304,17 @@ hr {
 .home-event-section.spring{
     background: #75af42;
     padding:0;
+    height: 480px;
+    /*border:1px solid gray;*/
 }
 .home-event{
-    padding:10px;
+    padding:15px;
     margin-bottom:10px;
+    /*border:1px solid gray;*/
 }
 .home-event>img{
     margin-bottom:15px;
+
 }
 .home-event-title{
     background: white;
@@ -336,6 +341,22 @@ hr {
 
 
 
+.home-event-calendar{
+    height:480px;
+    display: flex;
+    /*border:1px solid gray;*/
+}
+
+.home-event-calendar.spring{
+    background:#ffffff url('../img/Home/spring.jpg') no-repeat left top;
+    background-size: cover;
+}
+
+.home-event-calendar img{       width:65%;
+    margin:auto;
+}
+
+
 .home-event-arrow-right{
     margin: auto -15px;
     width: 0;
@@ -358,25 +379,15 @@ hr {
 .home-event-arrow-down.spring{
     border-top: 4rem solid #75af42;
 }
-.home-event-calendar{
-    height:480px;
-    display: flex;
-}
-.home-event-calendar img{       width:65%;
-    margin:auto;
-}
-
-.home-event-calendar.spring{
-    background:#ffffff url('../img/Home/spring.jpg') no-repeat left top;
-    background-size: cover;
-}
-
-
 /*Responsive style for HOME */
 @media only screen and (max-width: 768px) {
+    .home-event-section.spring{
+        height: 100%;
+    }
     .home-event{
         padding: 0;
     }
+
 }
 
 
