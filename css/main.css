@@ -230,7 +230,7 @@ hr {
 
 .become-dt-hero {
     background: #ffffff url("../img/hero-banners/banner-become-dt-business.jpg") no-repeat left top;
-    */ background-size: 100%;
+    background-size: 100%;
 }
 
 .blog-hero {
@@ -435,8 +435,11 @@ hr {
 }
 /*Responsive style for HOME */
 @media only screen and (max-width: 768px) {
-    .home-img-card{
-    height: 200px;
+    .home-downtown-section .home-img-card{
+        height: 200px;
+    }
+    .home-img-card-title {
+        font-size:4rem;
     }
 }
 /* MAIN CONTENT SECTION
