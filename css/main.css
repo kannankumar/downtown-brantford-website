@@ -1,0 +1,1023 @@
+/* FONTS
+-------------------------------------------------- */
+
+@font-face {
+    font-family: 'aileron-reg';
+    src: url(../fonts/Aileron/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: 'aileron-light';
+    src: url(../fonts/Aileron/Aileron-Light.otf);
+}
+
+@font-face {
+    font-family: 'aileron-thin';
+    src: url(../fonts/Aileron/Aileron-Thin.otf);
+}
+
+@font-face {
+    font-family: 'aileron-bold';
+    src: url(../fonts/Aileron/Aileron-Bold.otf);
+}
+
+@font-face {
+    font-family: 'bebas-bold';
+    src: url(../fonts/BebasNeue/BebasNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: 'bebas-reg';
+    src: url(../fonts/BebasNeue/BebasNeue-Regular.otf);
+}
+
+
+/* Font overrides */
+
+.bebas-bold {
+    font-family: 'bebas-bold', sans-serif !important;
+}
+
+
+/* COMMON ELEMENTS
+-------------------------------------------------- */
+
+body {
+    font-family: 'aileron-light', sans-serif;
+    color: #4f4f4f;
+    overflow-x: hidden;
+    background: #364860 url("../img/common/bia-bg-img.jpg") no-repeat;
+}
+
+h1 {
+    font-family: 'bebas-bold', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'bebas-bold', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4f4f4f;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    font-family: 'aileron-light', sans-serif;
+}
+
+.body-wrapper {
+    background-color: white;
+    padding: 0px;
+    margin: 0 30px;
+}
+
+.container-padding {
+    padding: 0 30px 0 30px;
+}
+
+hr {
+    border-top: 2px solid red;
+}
+
+
+/* Container responsive styles*/
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .body-wrapper {
+        margin: 0;
+    }
+    .container-padding {
+        padding: 0 10px 0 10px;
+    }
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar-wrapper {
+    border-bottom: 2px solid black;
+    /*    padding:0 30px 0 30px;*/
+}
+
+.navbar {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'bebas-bold', sans-serif;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: transparent;
+}
+
+.navbar-default .main-nav>.active>a,
+.navbar-default .main-nav>.active>a:focus,
+.navbar-default .main-nav>.active>a:hover {
+    background-color: #ef362e;
+    color: white;
+}
+
+.navbar-default .main-nav>li>a:focus,
+.navbar-default .main-nav>li>a:hover {
+    background-color: #ef362e;
+    color: white;
+}
+
+.navbar-default .main-nav>li {
+    font-size: 1.25em;
+    padding-right: 10px;
+}
+
+.main-nav.navbar-nav>li>a {
+    color: black;
+}
+
+.main-nav>li:hover {
+    /*    background-color: #ef362e;*/
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+.contact-nav .contact-text {
+    padding-top: 2.0rem;
+}
+
+.contact-nav .contact-title {
+    font-family: 'aileron-light';
+    padding-top: 2.0rem;
+}
+
+.contact-nav .contact-icon {
+    font-size: 3rem;
+}
+
+.contact-nav .contact-icon a {
+    padding: 0 1rem;
+    margin-top: 1.5rem;
+}
+
+.contact-nav .contact-icon.vertical-separator a {
+    border-right: 2px solid gray;
+    margin-right: 10px;
+}
+
+.contact-nav .header-contact-icon {
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.navbar-default .navbar-toggle {
+    margin: 15px 0 25px 0;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: red;
+    width: 32px;
+    height: 4px;
+}
+
+
+/* NAVBAR Responsive styles*/
+
+@media only screen and (max-width: 1224px) {
+    .navbar-brand img {
+        width: 180px;
+    }
+}
+
+
+/* HERO SECTION
+-------------------------------------------------- */
+
+.hero-wrapper {
+    /*    padding: 0 30px 30px 30px;*/
+    height: 300px;
+    padding-top: 60px;
+    padding-left: 60px;
+    margin: 0 30px;
+}
+
+.become-dt-hero {
+    background: #ffffff url("../img/hero-banners/banner-become-dt-business.jpg") no-repeat left top;
+    */ background-size: 100%;
+}
+
+.blog-hero {
+    background: #ffffff url("../img/hero-banners/banner-blog.jpg") no-repeat left top;
+    background-size: 100%;
+}
+
+.contact-bia-hero {
+    background: #ffffff url("../img/hero-banners/banner-contact-bia.jpg") no-repeat left top;
+    background-size: 100%;
+}
+
+.dining-hero {
+    background: #ffffff url("../img/hero-banners/banner-dining.jpg") no-repeat left top;
+    background-size: 100%;
+}
+
+
+.hero-text {
+    font-family: 'bebas-bold', sans-serif;
+    font-size: 60px;
+    padding: 0 10px;
+    background: #6c6a6a;
+    color: white;
+    line-height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-wrapper {
+        margin: 0;
+        background-size: 110%;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .hero-text {
+        font-size: 3.75rem;
+    }
+}
+
+
+/* HOME PAGE EVENT SECTION
+----------------------------------------------- */
+.home-section{
+    margin:0;
+}
+.home-read-more {
+    display: inline-block;
+    padding: 3px 3px;
+    margin: 5px 0;
+    font-family: 'aileron-bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: red;
+    color:white;    
+}
+
+.home-read-more .glyphicon {
+    font-size: 1.35rem;
+}
+
+.home-section-header{
+    display: inline-block;
+    font-size:3.75rem;
+    color:white;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
+.home-event-section.spring{
+    background: #75af42;
+    padding:0;
+}
+.home-event{
+    padding:10px;
+    margin-bottom:10px;
+}
+.home-event>img{
+    margin-bottom:15px;
+}
+.home-event-title{
+    background: white;
+    color:#75af42;
+    font-size:2.5rem;
+    padding:2px 2px;
+    margin:10px 0 5px 0;
+    text-transform: uppercase;
+    line-height: 120%
+    
+}
+.home-event-date, .home-event-time{
+    margin: 10px 0;
+    font-family: 'aileron-bold', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color:white;
+}
+
+.home-event-time{
+        margin: 0 0 5px 0;
+    font-size:1.5rem;
+}
+
+
+
+.home-event-arrow-right{
+    margin: auto -15px;
+    width: 0;
+    height: 0;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
+}
+
+.home-event-arrow-right.spring{
+    border-left: 4rem solid #75af42;
+}
+
+.home-event-arrow-down{
+    margin:auto;
+    width: 0; 
+  height: 0; 
+  border-left: 4rem solid transparent;
+  border-right: 4rem solid transparent;
+}
+.home-event-arrow-down.spring{
+    border-top: 4rem solid #75af42;
+}
+.home-event-calendar{       
+    height:480px;
+    display: flex;
+}
+.home-event-calendar img{       width:65%;
+    margin:auto;
+} 
+
+.home-event-calendar.spring{
+    background:#ffffff url('../img/Home/spring.jpg') no-repeat left top;
+    background-size: cover;
+}
+
+
+/*Responsive style for HOME */
+@media only screen and (max-width: 768px) {
+    .home-event{
+        padding: 0;
+    }    
+}
+
+
+/* HOME PAGE IMG CARDS SECTION
+--------------------------------------------------*/
+.home-downtown-section{
+    background:#ff2d00;
+}
+.home-info-section{
+    background:#116DBC;
+}
+.home-edu-section{
+    background:#320072;
+}
+.home-downtown-section .home-img-card{
+    height: 250px;
+    padding:10px;    
+    margin-bottom:20px;
+    
+}
+.home-info-section .home-img-card{
+    height: 320px;
+    padding:10px;    
+    margin-bottom:20px;
+    
+}
+
+.home-img-card-bg{
+    height: 100%;
+    padding: 20px;
+    border: 1px solid white;
+}
+.home-img-card-title{
+    background: #6c6a6a;
+    color:white;
+    font-size:6rem;
+    padding:5px 5px;
+    margin:10px 0 5px 0;
+    text-transform: uppercase;
+    line-height: 120%
+    
+}
+.home-img-card .home-read-more{
+    margin:20px 0;
+}
+/*Responsive style for HOME */
+@media only screen and (max-width: 768px) {
+    .home-img-card{
+    height: 200px;
+    }    
+}
+/* MAIN CONTENT SECTION
+-------------------------------------------------- */
+
+.main-content p {
+    font-family: 'aileron-light', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+    color: dimgray;
+}
+
+.main-content h3 {
+    font-family: 'aileron-reg', sans-serif;
+    text-transform: none;
+}
+
+.main-content h4 {
+    font-family: 'aileron-reg', sans-serif;
+    text-transform: none;
+}
+
+.main-content-box {
+    border: 1px solid lightgray;
+    margin: 15px 0 5px 0;
+    padding: 10px;
+}
+
+.main-content-box p {
+    margin-bottom: 20px;
+}
+
+.main-content-box .read-more {
+    padding: 3px 3px;
+    margin: 5px auto;
+    font-size: 1.5rem;
+}
+
+.main-content-box .read-more .glyphicon {
+    font-size: 1.35rem;
+}
+
+.post-img {
+    padding: 0 0 10px 0;
+}
+
+.post-row-content .title {
+    font-family: 'bebas-bold', sans-serif;
+    padding: 0 10px;
+    margin: 5px auto;
+    background: #6c6a6a;
+    color: white;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+.post-row-content .date {
+    margin: 10px 0;
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.post-row-content .text {
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.load-more {
+    margin: 20px;
+}
+
+.load-more .read-more {
+    padding: 3px 5px;
+    margin: 5px auto;
+    font-size: 1.5rem;
+}
+
+
+/* Individual blog styles*/
+
+.blog-article {
+    margin-top: 60px;
+}
+
+.blog-article header {
+    margin: 10px 0;
+}
+
+.blog-article .title {
+    font-family: 'bebas-bold', sans-serif;
+    padding: 0 10px;
+    margin: 15px auto;
+    background: #6c6a6a;
+    color: white;
+    font-size: 6rem;
+    line-height: 120%;
+}
+
+.blog-article .date {
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.blog-article img {
+    border: 1px solid lightgray;
+    margin: 60px 0;
+}
+
+
+/*DINING DIRECTORY styles */
+
+.letters {
+    display: inline-block;
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 4px 2px;
+    background: #cbcbcb;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.dining-legend>div,.open-legend>div {
+    display: inline-block;
+    padding: 0;
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.dining-icon,.open-icon {
+    width: 15px;
+    display: inline;
+    margin: 0 5px;
+}
+
+.dining-legend-wifi {
+    color: #108977;
+}
+
+.dining-legend-vegetarian {
+    color: #f26427;
+}
+
+.dining-legend-vegan {
+    color: #81bd43;
+}
+
+.dining-legend-glutten {
+    color: #f3cf52;
+}
+
+.dining-legend-catering {
+    color: #d01a71;
+}
+
+.open-legend-late{
+    color:#333366;
+}
+
+.open-legend-247{
+    color:#4b696a;
+}
+
+/* Dining cards */
+.dining-card-wrapper{
+   margin-top:50px; 
+}
+/* Odd cards have margin-right */
+
+.dining-card-wrapper:nth-child(odd) {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+
+/*Even cards have margin-left */
+
+.dining-card-wrapper:nth-child(even) {
+    padding-right: 0px;
+    padding-left: 10;
+}
+.dining-card {
+    border: 1px solid lightgray;
+    margin: 10px 0;
+    padding: 0;
+}
+.dining-img-container {
+    height: 250px
+}
+
+.dining-img {
+    display: block;
+    width: auto;
+    max-height: 100%;
+    padding: 0;
+}
+
+.dining-card-content {
+    padding: 10px;
+    height: 205px;
+}
+
+.dining-card-content .title-wrapper{
+    margin: 15px 0px 10px 0;
+}
+
+.dining-card-content .title {
+    display: inline;
+    font-family: 'bebas-bold', sans-serif;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background: #6c6a6a;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+.dining-card-content .address,
+.dining-card-content .phone,.dining-card-content .late-text
+{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.dining-card-content .dining-card-icons .dining-icon:first-child,.dining-card-content .dining-card-icons .open-icon:first-child {
+    margin: 0 5px 0 0;
+}
+
+.dining-card-content .dining-card-icons {
+    margin: 5px 0 10px 0;
+}
+/* To align readme icon in carrd to bottom
+.dining-card-content>a {
+    position: absolute;
+    bottom: 20px;
+}
+*/
+
+
+/*Individual dining styles
+*/
+.indv-dining-img-wrap{
+    padding: 0;
+    margin-bottom: 10px;
+}
+.indv-dining-location-box{
+    border:1px solid lightgray;
+    padding:20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content p {
+        font-size: 1.5rem;
+    }
+    .main-content h3 {
+        font-size: 1.75rem;
+    }
+    .post-row-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .dining-card-wrapper:nth-child(even),.dining-card-wrapper:nth-child(odd) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+.education-content img{
+    border:1px solid lightgray;
+    margin:40px 0;
+}
+
+/* Google Map Responsive styles*/
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    /* Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.google-maps.indv-dining-map {
+    padding-bottom: 53%;    
+}
+
+/* SIDEBAR SECTION
+-------------------------------------------------- */
+
+.sidebar-content {
+    margin-top: 40px;
+}
+
+.sidebar-box {
+    border: 1px solid lightgray;
+    margin: 15px 0 15px 15px;
+}
+
+.sidebar-box h3 {
+    font-family: 'bebas-bold', sans-serif;
+    text-transform: uppercase;
+    color: #6c6a6a;
+    padding: 0 0 10px 0;
+    margin: 30px 30px 10px 30px;
+    border-bottom: 2px solid red;
+}
+.sidebar-list-content{
+    margin:20px 30px;
+}
+.sidebar-color-box{
+    background: #66b11e;
+    height: 70px;
+    border:transparent;
+}
+.sidebar-color-box h3{
+    padding: 0 0 0 10px;
+    margin: 0px;
+    color: white;
+    border-bottom: transparent;
+}
+
+.sidebar-color-box img{
+    width:50px;
+}
+
+.calendar-text{
+    float: left;
+    width: 78%;
+    padding: 20px;
+}
+
+.calendar-icon-wrap{
+    float:left;
+    padding: 12px;
+    border-left: 1px solid white;
+}
+.sidebar-list-box ul li {
+    list-style: none;
+    font-family: 'aileron-light', sans-serif;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.sidebar-list-box ul li a {
+    font-family: 'aileron-light', sans-serif;
+    color: red;
+}
+
+.sidebar-list-box ul li:before {
+    content: "\f061";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -0.75em;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+}
+
+.sidebar-img-box ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px 30px 10px 30px;
+}
+
+.sidebar-img-box .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.sidebar-img-box .row:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+.sidebar-img-box .sidebar-img {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.sidebar-img-box .sidebar-row-content {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.sidebar-events-box ul .event-item,
+.sidebar-blog-box ul .blog-item {}
+
+.sidebar-img-box ul .event-title {
+    font-family: 'bebas-bold', sans-serif;
+    padding: 0 10px;
+    margin: 5px auto;
+    background: #6c6a6a;
+    color: white;
+    font-size: 18px;
+    line-height: 20%;
+}
+
+.sidebar-img-box ul .event-date {
+    margin: 10px 0;
+}
+
+.sidebar-img-box ul .sidebar-small-text, .sidebar-list-content .sidebar-small-text {
+    font-family: 'aileron-reg', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.read-more {
+    font-family: 'aileron-bold', sans-serif;
+    padding: 2px 2px;
+    margin: 5px auto;
+    background: red;
+    color: white;
+    font-size: 1.35rem;
+    line-height: 20%;
+}
+
+.read-more .glyphicon {
+    font-size: 1.25rem;
+}
+
+.social-title {
+    font-family: 'aileron-bold', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.social-date {
+    font-family: 'aileron-bold', sans-serif;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.15rem;
+    color: gray;
+}
+
+.social-text {
+    font-size: 1.25rem;
+}
+
+
+/* Sidebar responsive styles*/
+
+@media only screen and (max-width: 768px) {
+    .sidebar-box {
+        border: 1px solid gray;
+        margin: 15px 0 15px 0;
+    }
+    .sidebar-img-box .sidebar-row-content {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .sidebar-img-box ul .event-title {
+        margin-top: 5px;
+    }
+    
+    .sidebar-color-box
+    {
+        border:transparent;
+    }    
+}
+
+
+/* FOOTER SECTION
+-------------------------------------------------- */
+
+footer .footer-main {
+    height: 250px;
+    background: #636363;
+    border-top: 5px solid #424242;
+}
+
+footer .footer-copyright {
+    height: 50px;
+    background: #424242;
+}
+
+footer .row {
+    height: 100%;
+}
+
+footer>.footer-main>.row {
+    height: 100%;
+    padding: 20px 0;
+}
+
+footer .row>div {
+    height: 100%;
+}
+
+footer>.footer-main>.row>div:first-child {
+    border-right: 1px solid white;
+}
+
+footer h3 {
+    color: white;
+    text-decoration: underline;
+    margin: 0px 0px 10px 0px;
+    letter-spacing: 1px;
+}
+
+footer ul {
+    list-style: none;
+    font-family: 'aileron-light';
+    font-size: 12px;
+    color: white;
+    padding-left: 0px;
+}
+
+footer ul li {
+    padding-bottom: 5px;
+}
+
+footer .footer-logo {
+    width: 200px;
+}
+
+footer .contact-text {
+    padding-top: 2.0rem;
+}
+
+footer .contact-icon {
+    font-size: 3rem;
+    color: white;
+}
+
+footer .footer-social {
+    margin: 30px;
+}
+
+footer .footer-contact-icon {
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+footer .contact-text {
+    font-family: 'bebas-reg';
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+footer .footer-copyright {
+    font-family: 'aileron-light';
+    font-size: 1.3rem;
+    color: white;
+    display: table;
+    width: 100%;
+}
+
+footer .copyright-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tdg-content {
+    float: right;
+    color: orange;
+}
+
+.icon-tdg {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+
+/* Footer responsive styles*/
+
+@media only screen and (max-width: 768px) {
+    footer .copyright-content {
+        text-align: center;
+    }
+    .tdg-content {
+        float: none;
+        display: block;
+    }
+}
