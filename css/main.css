@@ -273,6 +273,7 @@ hr {
 
 /* HOME PAGE EVENT SECTION
 ----------------------------------------------- */
+/* Common styles for all sections */
 .home-section{
     margin:0;
     /*border:1px solid gray;*/
@@ -299,6 +300,25 @@ hr {
 .home-read-more .glyphicon {
     font-size: 1.35rem;
 }
+
+
+.home-arrow-right{
+    margin: auto -20px;
+    width: 0;
+    height: 0;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
+}
+
+.home-arrow-down{
+    margin:-10px auto;
+    width: 0;
+    height: 0;
+    border-left: 4rem solid transparent;
+    border-right: 4rem solid transparent;
+}
+
+
 
 /* Event section on Homepage */
 .home-event-section.spring{
@@ -356,27 +376,13 @@ hr {
     margin:auto;
 }
 
-
-.home-event-arrow-right{
-    margin: auto -15px;
-    width: 0;
-    height: 0;
-    border-top: 4rem solid transparent;
-    border-bottom: 4rem solid transparent;
-}
-
-.home-event-arrow-right.spring{
+.home-event-calendar .home-arrow-right.spring{
     border-left: 4rem solid #75af42;
 }
 
-.home-event-arrow-down{
-    margin:auto;
-    width: 0;
-  height: 0;
-  border-left: 4rem solid transparent;
-  border-right: 4rem solid transparent;
-}
-.home-event-arrow-down.spring{
+.home-event-calendar .home-arrow-down.spring{
+    position: absolute;
+    left: 40%;
     border-top: 4rem solid #75af42;
 }
 /*Responsive style for HOME */
@@ -401,6 +407,7 @@ hr {
 }
 .home-edu-section{
     background:#320072;
+    height:320px;
 }
 .home-downtown-section .home-img-card{
     height: 250px;
@@ -414,7 +421,11 @@ hr {
     margin-bottom:20px;
 
 }
-
+.home-edu-bg{
+    background:#ffffff url('../img/Home/education.jpg') no-repeat left top;
+    background-size: cover;
+    height: 320px;
+}
 .home-img-card-bg{
     height: 100%;
     padding: 20px;
@@ -424,14 +435,28 @@ hr {
     background: #6c6a6a;
     color:white;
     font-size:6rem;
-    padding:5px 5px;
-    margin:10px 0 5px 0;
+    padding:0px 10px;
     text-transform: uppercase;
-    line-height: 120%
+    line-height: 110%
 
 }
 .home-img-card .home-read-more{
     margin:20px 0;
+}
+/*Education Section styles */
+
+.home-edu-section p{
+    font-family: 'aileron-bold';
+    color:white;
+}
+.home-edu-bg .home-arrow-right{
+    border-left: 4rem solid #320072;
+    position: relative;
+    top: 40%;
+}
+
+.home-edu-bg .home-arrow-down{
+    border-top: 4rem solid #320072;
 }
 /*Responsive style for HOME */
 @media only screen and (max-width: 768px) {
