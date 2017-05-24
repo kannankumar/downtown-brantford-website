@@ -396,9 +396,7 @@ hr {
 
 }
 
-
-/* HOME PAGE IMG CARDS SECTION
---------------------------------------------------*/
+/*Home page section colors */
 .home-downtown-section{
     background:#ff2d00;
 }
@@ -409,6 +407,16 @@ hr {
     background:#320072;
     height:320px;
 }
+.home-email-section{
+    background:#F86A23;
+}
+.home-social-section{
+    background: #053D6F;
+    height:300px;
+}
+/* HOME PAGE IMG CARDS SECTION
+--------------------------------------------------*/
+
 .home-downtown-section .home-img-card{
     height: 250px;
     padding:10px;
@@ -445,7 +453,7 @@ hr {
 }
 /*Education Section styles */
 
-.home-edu-section p{
+.home-edu-section p, .home-email-subsection p, .home-email-subsection ul{
     font-family: 'aileron-bold';
     color:white;
 }
@@ -466,6 +474,47 @@ hr {
     .home-img-card-title {
         font-size:4rem;
     }
+}
+
+/*Email updates section*/
+
+.home-email-subsection{
+    height: 300px;
+    border:1px solid gray;
+}
+.home-subsection{
+    height: 300px;
+    border:1px solid gray;
+}
+
+.home-form-container{
+    margin-top:15px;
+    padding: 10px;
+    background:white;
+    box-shadow: 0 0 5px 5px lightgray;
+}
+.bia-input-field{
+    height:28px;
+    color: #626262;
+    border: 2px solid #626262;
+    border-radius: 0;
+    margin: 10px 0;
+}
+.gray-bg-header{
+font-family: 'bebas-bold', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+background-color: #626262;
+color: white;
+padding: 0px 5px;
+}
+
+.red-header{
+    font-family: 'bebas-bold', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: red;
+    margin-top:10px;
 }
 /* MAIN CONTENT SECTION
 -------------------------------------------------- */
