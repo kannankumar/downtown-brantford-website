@@ -846,6 +846,59 @@ padding: 0px 5px;
 .google-maps.indv-dining-map {
     padding-bottom: 53%;
 }
+/* MEMBER FORM STYLES
+--------------------------------------------------------*/
+.hero-breadcrumb{
+    height:30px;
+    background:lightgray;
+    margin: 0 30px 0 30px;
+}
+.crumb{
+    font-size:1.4rem;
+    margin-left:20px;
+    text-decoration: underline;
+}
+.crumb-home img{
+    display: inline;
+    width: 30px;
+    padding: 7px;
+    margin-left: 20px;
+}
+
+.bia-form-header{
+    font-family: 'bebas-bold', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: #626262;
+    padding: 0 5px;
+}
+.bia-form-group{
+    margin-bottom: 80px;
+}
+.bia-label{
+    font-family:'aileron-bold',sans-serif;
+    /*font-weight: 700;*/
+}
+
+.bia-input{
+    border-radius: 0px !important;
+    color: #626262;
+    border: 2px solid #626262;
+}
+
+.bia-addon-btn{
+    background: transparent;
+    border: transparent;
+    box-shadow: 0 0 0 0 transparent;
+}
+@media only screen and (max-width: 768px) {
+    .hero-breadcrumb{
+        height:120px;
+        background:lightgray;
+        margin: 0;
+    }
+}
 
 /* SIDEBAR SECTION
 -------------------------------------------------- */
