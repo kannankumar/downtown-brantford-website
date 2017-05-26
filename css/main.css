@@ -307,6 +307,7 @@ section.home-banner{
     color:white;
     letter-spacing:1px;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .home-read-more {
     display: inline-block;
@@ -502,19 +503,24 @@ section.home-banner{
 
 .home-email-subsection{
     height: 300px;
-    border:1px solid gray;
 }
 .home-subsection{
     height: 300px;
-    border:1px solid gray;
+}
+.home-social-section{
+    height: 300px;
+    overflow-y: scroll;
+    color: white;
 }
 
 .home-form-container{
     margin-top:15px;
+    margin-bottom: 20px;
     padding: 10px;
     background:white;
-    box-shadow: 0 0 5px 5px lightgray;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
 }
+
 .bia-input-field{
     height:28px;
     color: #626262;
