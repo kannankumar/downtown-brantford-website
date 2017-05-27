@@ -970,6 +970,31 @@ padding: 0 0 10px 0;
         margin: 0;
     }
 }
+/* Events Lisst style
+---------------------------------*/
+.bia-color-box.add{
+    background:#2EEF74;
+}
+.mem-event-item{
+    margin:20px 20px 20px 0;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.mem-event-item img:first-child{
+    width: 200px;
+}
+
+.mem-event-item img:last-child{
+    width: 15px;
+    margin-left:10px;
+}
+.mem-event-item h3{
+    margin-top:10px;
+}
+.mem-event-item .events-list-date{
+    color:#626262;
+}
 
 /* BODY LIST STYLES
 ----------------------------------*/
@@ -1130,7 +1155,7 @@ padding: 0 0 10px 0;
     margin-bottom: 0;
 }
 
-.social-date {
+.events-list-date,.social-date {
     font-family: 'aileron-bold', sans-serif;
     margin: 0 0 0.5rem 0;
     font-size: 1.15rem;
