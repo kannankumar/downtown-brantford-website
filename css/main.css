@@ -537,7 +537,7 @@ color: white;
 padding: 0px 5px;
 }
 
-.red-header{
+.main-content .red-header,.red-header{
     font-family: 'bebas-bold', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -994,6 +994,24 @@ padding: 0 0 10px 0;
 }
 .mem-event-item .events-list-date{
     color:#626262;
+}
+/*Member login */
+.mem-login-box{
+    border: 1px solid lightgray;
+    margin: 30px 15px;
+    padding: 0 30px 30px 30px;
+}
+.mem-login-box .mem-login-header{
+    border-bottom: 1px solid red;
+padding: 10px 0;
+margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .mem-login-box{
+        border: 0px solid transparent;
+        margin: -15px;
+        padding: 0 30px 30px 30px;
+    }
 }
 
 /* BODY LIST STYLES
