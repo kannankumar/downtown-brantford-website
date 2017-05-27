@@ -900,6 +900,30 @@ padding: 0px 5px;
     }
 }
 
+/* BODY LIST STYLES
+----------------------------------*/
+.main-content ul{
+    list-style: none;
+}
+.main-content ul li{
+    font-size: 1.75rem;
+    margin-bottom:10px;
+}
+
+.fa-li {
+    font-size: 1.5rem;
+    top: 0.5rem;
+}
+/*.main-content ul li:before{
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    position: relative;
+    margin-right: 10px;
+    top: 0px;
+    color: #ccc;
+}*/
+
 /* SIDEBAR SECTION
 -------------------------------------------------- */
 
