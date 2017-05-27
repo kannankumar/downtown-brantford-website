@@ -892,6 +892,52 @@ padding: 0px 5px;
     border: transparent;
     box-shadow: 0 0 0 0 transparent;
 }
+
+/* COLOR BOX STYLES
+-------------------------- */
+.bia-color-box-container{
+    margin:40px 0;
+}
+.bia-color-box{
+    background: gray;
+    height: 70px;
+    border: transparent;
+    margin: 15px 15px 15px 0;
+    padding:0px;
+}
+.bia-color-box.profile{
+    background:#EF362E;
+}
+.bia-color-box.events{
+    background:#F76923;
+}
+.bia-color-box.settings{
+    background:#D71F61;
+}
+.bia-color-box h3{
+margin: 0px;
+font-size:2.5rem;
+color: white;
+border-bottom: transparent;
+font-family: 'bebas-bold', sans-serif;
+text-transform: uppercase;
+color: white;
+padding: 0 0 10px 0;
+}
+.bia-color-box-text{
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+.bia-color-box-icon{
+    float: right;
+    padding: 2px;
+    border-left: 1px solid white;
+}
+.bia-color-box-icon img{
+    width:70px;
+    padding:10px;
+}
 @media only screen and (max-width: 768px) {
     .hero-breadcrumb{
         height:120px;
@@ -1104,7 +1150,9 @@ padding: 0px 5px;
 
 /* FOOTER SECTION
 -------------------------------------------------- */
-
+footer{
+    margin-top:40px;
+}
 footer .footer-main {
     height: 250px;
     background: #636363;
