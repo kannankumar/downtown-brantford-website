@@ -1014,6 +1014,17 @@ margin-bottom: 20px;
     }
 }
 
+/*Mem Page edit */
+.mem-edit-content .bia-addon-btn img{
+    width: 10px;
+}
+
+.mem-edit-desc{
+    margin-bottom: 40px;
+}
+.mem-edit-desc .bia-input{
+    border: 1px solid lightgray;
+}
 /* BODY LIST STYLES
 ----------------------------------*/
 .main-content ul{
