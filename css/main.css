@@ -633,7 +633,7 @@ padding: 0px 5px;
     margin: 10px 0;
 }
 
-.blog-article .title {
+.member-event-title, .blog-article .title {
     font-family: 'bebas-bold', sans-serif;
     padding: 0 10px;
     margin: 15px auto;
@@ -880,7 +880,12 @@ padding: 0px 5px;
     font-family:'aileron-bold',sans-serif;
     /*font-weight: 700;*/
 }
-
+.no-padding{
+    padding: 0px;
+}
+.bia-form-padding-left{
+    padding-left:20px;
+}
 .bia-input{
     border-radius: 0px !important;
     color: #626262;
@@ -892,7 +897,27 @@ padding: 0px 5px;
     border: transparent;
     box-shadow: 0 0 0 0 transparent;
 }
+.bia-addon-btn img{
+    border:transparent;
+    display: inline;
+    width:20px;
+}
 
+.bia-textarea{
+    min-height: 150px;
+}
+.bia-event-add-thumb
+{
+    width: 100%;
+    padding: 30px;
+    border: 1px solid lightgray;
+    margin:20px 0px;
+}
+@media only screen and (max-width: 768px) {
+    .bia-form-padding-left{
+        padding-left:0px;
+    }
+}
 /* COLOR BOX STYLES
 -------------------------- */
 .bia-color-box-container{
@@ -960,15 +985,7 @@ padding: 0 0 10px 0;
     font-size: 1.5rem;
     top: 0.5rem;
 }
-/*.main-content ul li:before{
-    content: "\e080";
-    font-family: 'Glyphicons Halflings';
-    font-size: 9px;
-    position: relative;
-    margin-right: 10px;
-    top: 0px;
-    color: #ccc;
-}*/
+
 
 /* SIDEBAR SECTION
 -------------------------------------------------- */
