@@ -309,17 +309,6 @@ hr {
     margin:0px !important;
 }
 
-.blog-hero {
-    background: #ffffff url("../img/hero-banners/banner-blog.jpg") no-repeat left top;
-    background-size: 100%;
-}
-
-.contact-bia-hero {
-    background: #ffffff url("../img/hero-banners/banner-contact-bia.jpg") no-repeat left top;
-    background-size: 100%;
-}
-
-
 .hero-text {
     font-family: 'bebas-bold', sans-serif;
     font-size: 60px;
