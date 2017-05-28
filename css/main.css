@@ -1504,7 +1504,12 @@ footer ul {
     color: white;
     padding-left: 0px;
 }
-
+footer ul>a{
+    color:white;
+}
+footer ul>a:hover{
+    color:white;
+}
 footer ul li {
     padding-bottom: 5px;
 }
