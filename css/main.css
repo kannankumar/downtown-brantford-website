@@ -308,10 +308,6 @@ hr {
 .hero-wrapper-with-content{
     margin:0px !important;
 }
-.become-dt-hero {
-    background: #ffffff url("../img/hero-banners/banner-become-dt-business.jpg") no-repeat left top;
-    background-size: 100%;
-}
 
 .blog-hero {
     background: #ffffff url("../img/hero-banners/banner-blog.jpg") no-repeat left top;
