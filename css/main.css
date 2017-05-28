@@ -148,6 +148,9 @@ hr {
   background: #cb2027;
   color: white;
 }
+ b{
+     font-family: 'aileron-bold';
+ }
 
 
 /* Container responsive styles*/
@@ -681,6 +684,67 @@ padding: 0px 5px;
 .main-content-box p {
     margin-bottom: 20px;
 }
+
+/* list styles */
+
+.home-email-section ul li:before, .main-content ul li:before {
+    content: "\f061";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.50em;
+    /* same as padding-left set on li */
+    width: 1.5em;
+    /* same as padding-left set on li */
+}
+
+.home-email-section ul, .main-content ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px 30px 10px 30px;
+}
+
+.main-content ol {
+    font-family: 'aileron-light', sans-serif;
+    font-size: 1.75rem;
+    color: dimgray;
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+
+.main-content ol>li {
+  margin:1em 0 0 2em;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+
+.main-content ol>li:before {
+    font-family: 'aileron-bold', sans-serif;
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:800;
+  text-align:right;
+  content:counter(item) ".";
+}
+
+/*
+.main-content ol li:before{
+    font-family: 'aileron-bold', sans-serif;
+    font-weight: 800;
+}
+
+.main-content ol li{
+    font-family: 'aileron-light', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: dimgray;
+}*/
+
+
 
 .main-content-box .read-more {
     padding: 3px 3px;
