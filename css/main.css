@@ -86,11 +86,18 @@ p {
     padding: 0px;
     margin: 0 30px;
 }
-
+.no-margin{
+    margin:0px;
+}
+.no-padding{
+    padding: 0px;
+}
 .container-padding {
     padding: 0 30px 0 30px;
 }
-
+.container-padding-extra{
+    padding: 0 45px;
+}
 hr {
     border-top: 2px solid red;
 }
@@ -107,6 +114,9 @@ hr {
     }
     .container-padding {
         padding: 0 10px 0 10px;
+    }
+    .container-padding-extra{
+        padding: 0 10px;
     }
 }
 
@@ -230,6 +240,9 @@ hr {
     margin: 0 30px;
 }
 
+.hero-wrapper-with-content{
+    margin:0px !important;
+}
 .become-dt-hero {
     background: #ffffff url("../img/hero-banners/banner-become-dt-business.jpg") no-repeat left top;
     background-size: 100%;
@@ -259,7 +272,53 @@ hr {
     color: white;
     line-height: 100%;
 }
+.hero-form{
+    background: red;
+    padding:40px 80px;
+    height:300px;
+}
+.hero-form .gray-bg-header{
+    color:red !important;
+    background: white !important;
+}
+.hero-form .bia-input-field{
+    border:2px solid white !important;
+    color:white;
+    background: red;
+}
 
+/*Styling placeholder text */
+.hero-form  .bia-input-field::-webkit-input-placeholder {
+    color: white;
+}
+ .hero-form .bia-input-field::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:white !important!;
+   opacity:  1;
+}
+.hero-form .bia-input-field::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:white !important!;
+   opacity:  1;
+}
+.hero-form .bia-input-field::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:white !important!;
+}
+.hero-form .bia-input-field::-ms-input-placeholder { /* Microsoft Edge */
+    color:white !important!;
+}
+
+
+.hero-form .read-more{
+    display: inline-block;
+    padding: 8px 5px;
+    margin: 10px 5px 10px 0;
+    background: white;
+    color: red;
+    text-decoration: none;
+}
+
+.hero-form .white-text{
+    color:white;
+}
 @media only screen and (max-width: 768px) {
     .hero-wrapper {
         margin: 0;
@@ -269,6 +328,10 @@ hr {
     }
     .hero-text {
         font-size: 3.75rem;
+    }
+    .hero-form{
+        background: red;
+        padding:40px 10px;
     }
 }
 
@@ -879,9 +942,6 @@ padding: 0px 5px;
 .bia-label{
     font-family:'aileron-bold',sans-serif;
     /*font-weight: 700;*/
-}
-.no-padding{
-    padding: 0px;
 }
 .bia-form-padding-left{
     padding-left:20px;
