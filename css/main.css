@@ -187,20 +187,38 @@ hr {
 .contact-nav .contact-title {
     font-family: 'aileron-light';
     padding-top: 2.0rem;
+    padding-right: 10px;
 }
 
-.contact-nav .contact-icon {
+/*.contact-nav .contact-icon {
     font-size: 3rem;
+}*/
+.contact-nav .contact-icon .fa{
+    background: #626262;
+    color: white;
+    padding: 5px;
+    font-size: 1.5rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 5px;
+    border-radius: 50%;
 }
-
-.contact-nav .contact-icon a {
+.contact-nav .contact-icon:hover .fa{
+    background: black;
+    color: white;
+}
+/*.contact-nav .contact-icon a {
     padding: 0 1rem;
     margin-top: 1.5rem;
-}
+}*/
 
-.contact-nav .contact-icon.vertical-separator a {
-    border-right: 2px solid gray;
+.contact-nav .contact-icon.vertical-separator {
+    border-right: 1px solid gray;
     margin-right: 10px;
+    height: 30px;
+    /* width: 22px; */
+    margin: 15px 10px;
 }
 
 .contact-nav .header-contact-icon {
@@ -1114,14 +1132,15 @@ margin-bottom: 20px;
 
   margin:60px 0;
 }
+#photos .gallery-item:first-child{
+    margin:0 0 20px 0 !important;
+    position: relative;
+}
 #photos .gallery-item{
     margin:20px 0;
     position: relative;
 }
-#photos .gallery-item:first-child{
-    margin:0px 0 20px 0;
-    position: relative;
-}
+
 #photos .gallery-item:hover{
     box-shadow: 0 0 10px 4px lightgray;
 }
@@ -1450,8 +1469,19 @@ footer .contact-text {
     padding-top: 2.0rem;
 }
 
-footer .contact-icon {
-    font-size: 3rem;
+
+footer .contact-icon .fa{
+    background: white;
+    color: #626262;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+footer .contact-icon:hover .fa{
+    background: black;
     color: white;
 }
 
